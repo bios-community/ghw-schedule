@@ -1,0 +1,16 @@
+@use './components/classBased' as *;
+@use './components/variables' as *;
+
+.container {
+    max-width: 1200px;
+    margin: 64px auto;
+    width: 90%;
+  }
+
+  .link {
+    color: $link-yellow;
+
+    &:hover {
+      text-shadow: 0 0 13px $link-yellow;
+    }
+  }

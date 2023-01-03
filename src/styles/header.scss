@@ -1,0 +1,21 @@
+@use './components/variables' as *;
+@use './components/classBased' as *;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Space+Grotesk:wght@400;700&display=swap');
+
+.header {
+  width: 50%;
+  min-width: 320px;
+
+  &__title {
+    font-size: calc(1vw + 24px);
+    font-weight: 700;
+    line-height: 1.4;
+  }
+
+  &__description {
+    margin: 24px 0;
+    font-size: 16px;
+    font-family: $font-family-mono
+  }
+}
