@@ -1,6 +1,13 @@
 $font-family-sans: "Inter", sans-serif;
 $font-family-mono: "Space Grotesk";
 
-$dark-pruple: #171C46;
-$light-pink: #FFA6F5;
-$link-yellow: #FCEE90;
+
+$font-size-xl: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
+$font-size-lg: clamp(1.56rem, 1vw + 1.31rem, 2.11rem);
+$font-size-body: 1rem;
+
+$purple-dark: #171C46;
+$purple-medium: #1D2356;
+$purple-light: #30387C;
+$pink-light: #FFA6F5;
+$yellow-link: #FCEE90;

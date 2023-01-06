@@ -1,5 +1,5 @@
 @use "./styles/components/variables" as *;
-@use "./styles/components//reset" as *;
+@use "./styles/components/reset" as *;
 
 * {
   margin: 0;
@@ -9,10 +9,16 @@
 
 body {
   font-family: $font-family-mono;
-  background-color: $dark-pruple;
-  color: $light-pink;
+  background-color: $purple-dark;
+  color: $pink-light;
+  font-size: $font-size-body;
+  line-height: 1.5;
 }
 
 .link {
-  color: $link-yellow;
+  color: $yellow-link;
+
+  &:hover {
+    text-shadow: 0 0 13px $yellow-link;
+  }
 }

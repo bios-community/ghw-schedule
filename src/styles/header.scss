@@ -1,15 +1,19 @@
 @use "./components/variables" as *;
 
 .header {
-  width: 70%;
+  width: calc(30vw + 200px);
   min-width: 300px;
 
   &__title {
-    font-size: calc(1vw + 24px);
+    font-size: $font-size-xl;
     font-weight: 700;
-    line-height: 1.4;
+    line-height: 1.2;
     font-family: $font-family-sans;
     margin: 48px 0 24px 0;
+
+    &__diff {
+      color: $yellow-link;      
+    }
   }
 
   &__description {
