@@ -1,17 +1,15 @@
-import Card from "./Card"
-import '../styles/main.scss'
+import Card from "./Card";
+import "../styles/main.scss";
+import ScheduleData from "../data/ScheduleData";
 
 function Main() {
-    return (
-        <main className="main">
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-        </main>
-    )
+  const cardsList = ScheduleData.map((cardItem) => <Card {...cardItem} />);
+  
+  return (
+    <main className="main">
+        {cardsList}
+    </main>
+  );
 }
 
-export default Main
+export default Main;
