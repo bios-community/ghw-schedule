@@ -1,25 +1,25 @@
-@use "./components/variables" as *;
+@use './components/variables' as *;
 
 .header {
-  width: calc(30vw + 200px);
-  min-width: 300px;
+	width: calc(30vw + 200px);
+	min-width: 300px;
 
-  &__title {
-    font-size: $font-size-xl;
-    font-weight: 700;
-    line-height: 1.2;
-    font-family: $font-family-sans;
-    margin: 48px 0 24px 0;
+	&__title {
+		font-size: $font-size-xl;
+		font-weight: 700;
+		line-height: 1.2;
+		font-family: $font-family-sans;
+		margin: 48px 0 24px 0;
 
-    &__diff {
-      color: $yellow-link;      
-    }
-  }
+		&__diff {
+			color: $yellow-link;
+		}
+	}
 
-  &__description {
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    margin-bottom: 12px;
-  }
+	&__description {
+		font-size: 1rem;
+		font-weight: 400;
+		line-height: 1.5;
+		margin-bottom: 12px;
+	}
 }
